@@ -1,9 +1,9 @@
 const CUSTOMER_SITES = [
-    wl: {
+     {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: 'WL',
     },
-    bf: {
+     {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: 'bf',
     },
