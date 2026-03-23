@@ -1107,15 +1107,15 @@ function renderEpisodes(vodName, sourceCode, vodId) {
 }
 
 // 复制视频链接到剪贴板
-function copyLinks() {
-    const episodes = episodesReversed ? [...currentEpisodes].reverse() : currentEpisodes;
-    const linkList = episodes.join('\r\n');
-    navigator.clipboard.writeText(linkList).then(() => {
-        showToast('播放链接已复制', 'success');
-    }).catch(err => {
-        showToast('复制失败，请检查浏览器权限', 'error');
-    });
-}
+// function copyLinks() {
+//     const episodes = episodesReversed ? [...currentEpisodes].reverse() : currentEpisodes;
+//     const linkList = episodes.join('\r\n');
+//     navigator.clipboard.writeText(linkList).then(() => {
+//         showToast('播放链接已复制', 'success');
+//     }).catch(err => {
+//         showToast('复制失败，请检查浏览器权限', 'error');
+//     });
+// }
 
 // 切换排序状态的函数
 function toggleEpisodeOrder(sourceCode, vodId) {
